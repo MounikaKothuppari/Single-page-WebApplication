@@ -1,0 +1,7 @@
+.divborder {
+    width: 250px;
+    height: 250px;
+    border: 10px solid;
+    padding: 15px;
+    border-image: url(../Images/border.png) 25 repeat;
+}
