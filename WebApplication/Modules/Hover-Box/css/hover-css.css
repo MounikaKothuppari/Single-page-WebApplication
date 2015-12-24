@@ -1,0 +1,20 @@
+.triangle {
+    width: 220px;
+    height: 180px;
+    background: #33bbff;
+    position: relative;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+.triangle:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-right: 60px solid #33bbff;
+    border-bottom: 30px solid transparent;
+}
