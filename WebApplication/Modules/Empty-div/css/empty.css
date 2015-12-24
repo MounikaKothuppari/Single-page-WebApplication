@@ -1,0 +1,10 @@
+.dive {
+    width: 160px;
+    height: 160px;
+    background-color: #1affff;
+    margin: 20px;
+}
+
+.dive:empty {
+    background: #ff884d;
+}
