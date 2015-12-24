@@ -1,0 +1,13 @@
+div p {
+    text-align: justify;
+    color: #ffffb3;
+}
+
+.first:first-letter {
+    color: #000099;
+    font-size: 200%;
+}
+
+.first:first-line {
+    color: #9966ff;
+}
