@@ -1,0 +1,18 @@
+.divm {
+    float: left;
+    width: 160px;
+    height: 160px;
+    background-color: #1affff;
+    margin: 10px;
+    text-align: center;
+    opacity: 0.4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.divp {
+    background: white;
+    border: 5px solid #1a1aff;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
