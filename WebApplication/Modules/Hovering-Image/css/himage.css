@@ -1,0 +1,38 @@
+.ima1 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-image: url(../Images/border.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    transition: background-image 1s ease-in-out;
+}
+
+.ima1:hover {
+    background-image: url(../Images/lamp.png);
+}
+
+.fo {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.fo img:last-child {
+    display: none
+}
+
+.fo:hover img:first-child {
+    display: none;
+}
+
+.fo:hover img:last-child {
+    display: inline-block
+}
+
+.im1 {
+    width: 300px;
+    height: 300px;
+}
