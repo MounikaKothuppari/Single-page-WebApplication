@@ -1,0 +1,20 @@
+body {
+    background-image: url(../Images/bodyback.png);
+}
+
+a {
+    cursor: pointer;
+    color: red;
+}
+
+img {
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+h2 {
+    float: right;
+    margin-top: 300px;
+    margin-right: 200px;
+}

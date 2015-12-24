@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px) and (min-width:250px) {
+    nav ul.contact li {
+        float: left;
+    }
+    .buttons img {
+        width: 20px;
+        height: 18px;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .sub-menu {
+        margin-left: 50px;
+    }
+    .right {
+        width: 100%;
+    }
+    .menu {
+        width: 30%;
+        margin-left: 0;
+    }
+    .menu ul li {
+        font-size: 15px;
+        height: 25px;
+        border-bottom: 2px solid white;
+        width: 120px;
+        display: block;
+    }
+    .menu ul li a {
+        padding: 2px;
+    }
+    .sub-menu ul li {
+        font-size: 10px;
+        height: 25px;
+        border-bottom: 2px solid white;
+        width: 200px;
+        display: block;
+    }
+    .sub-menu ul li a {
+        padding: 2px;
+    }
+    .hai {
+        position: relative;
+        margin-top: -120px;
+        width: 50%;
+        margin-right: 0;
+        padding: 2px;
+        margin-left: 80px;
+    }
+    .menu-div {
+        margin-left: 0;
+        padding: 0;
+        width: 30%;
+    }
+}

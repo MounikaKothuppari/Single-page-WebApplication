@@ -1,0 +1,125 @@
+@import url("../Modules/Menu/css/menu-css.css");
+@import url("../Modules/Human-Face/css/mystyle.css");
+@import url("../Modules/Text-Blur/css/blur.css");
+@import url("../Modules/Hovering-Image/css/himage.css");
+@import url("../Modules/BorderImage/css/borderimage_css.css");
+@import url("../Modules/Hover-Box/css/hover-css.css");
+@import url("../Modules/Button/css/button-css.css");
+@import url("../Modules/Empty-div/css/empty.css");
+@import url("../Modules/FirstLetter/css/firstletter-css.css");
+@import url("../Modules/Formatting-P/css/format-css.css");
+@import url("../Modules/Maintain-HW/css/maintain.css");
+@import url("../Modules/Order-List/css/order.css");
+@import url("../Modules/Ribbon-Shape/css/shape-css.css");
+@import url("../Modules/Text-In-Column/css/column-css.css");
+@import url("../Modules/Aboutus/Circle-Image/css/circularimg.css");
+body {
+    background-image: url(../Images/bodyback.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+}
+
+header {
+    background-image: url(../Images/b4.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    height: 155px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header .nav1 {
+    font-family: Comic Sans MS;
+    border: 0;
+}
+
+.h4 {
+    text-align: right;
+    color: #ffffb3;
+}
+
+.menu-div {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.hai {
+    padding-top: 25px;
+    float: left;
+    width: 60%;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: left;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 60px;
+}
+
+.buttons {
+    float: right;
+    position: relative;
+}
+
+.buttons li {
+    float: right;
+    padding-left: 30px;
+    color: #ffffb3;
+}
+
+.right {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    width: 20%;
+    margin-top: -38px;
+    background-color: rgba(17, 0, 0, 0.4);
+    margin-right: 0;
+    float: right;
+    text-align: center;
+}
+
+.right img {
+    width: 150px;
+    height: 150px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.right marquee {
+    text-align: center;
+}
+
+.right h2 {
+    color: #ffffb3;
+}
+
+.contact li {
+    margin-right: 10px;
+    color: #ffffb3;
+    list-style-type: none;
+}
+
+.foot nav {
+    display: inline-block;
+}
+
+.foot nav:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.foot nav .buttons img {
+    border-radius: 10px;
+}
