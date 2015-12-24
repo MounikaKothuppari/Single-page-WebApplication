@@ -1,0 +1,11 @@
+.tblur {
+    border: 2px solid #73AD21;
+    padding: 20px;
+    height: 40px;
+    font-size: 30px;
+    color: #ffffb3;
+    text-shadow: 0px 0px 8px black;
+    text-align: center;
+    font-family: Comic Sans MS;
+    -webkit-filter: blur(2px);
+}
